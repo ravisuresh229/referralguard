@@ -122,7 +122,7 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                           <span className="text-xs text-gray-500">↗ +15% vs Q1</span>
                         </div>
                         <div className="flex items-end gap-1 h-16">
-                          {revenueTrend.map((value, index) => (
+                          {revenueTrend.map((value: number, index: number) => (
                             <div
                               key={index}
                               className="flex-1 bg-blue-200 rounded-t"
@@ -139,7 +139,7 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                           <span className="text-xs text-gray-500">↘ -22% vs Q1</span>
                         </div>
                         <div className="flex items-end gap-1 h-16">
-                          {marketShareTrend.map((value, index) => (
+                          {marketShareTrend.map((value: number, index: number) => (
                             <div
                               key={index}
                               className="flex-1 bg-green-200 rounded-t"
@@ -156,7 +156,7 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                           <span className="text-xs text-gray-500">↗ +20% vs Q1</span>
                         </div>
                         <div className="flex items-end gap-1 h-16">
-                          {riskScoreTrend.map((value, index) => (
+                          {riskScoreTrend.map((value: number, index: number) => (
                             <div
                               key={index}
                               className="flex-1 bg-red-200 rounded-t"
