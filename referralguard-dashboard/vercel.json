@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "name": "referralguard",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "app/api/analyze/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/dashboard-summary/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/generate-report/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/ml-predict/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/recovery-plan/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization"
+        }
+      ]
+    }
+  ]
+} 

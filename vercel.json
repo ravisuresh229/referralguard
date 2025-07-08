@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "name": "referralguard",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "app/api/analyze/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/high-risk-providers/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/market-competition/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/ml-performance/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization"
+        }
+      ]
+    }
+  ]
+} 

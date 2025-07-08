@@ -1,0 +1,503 @@
+{
+  "metrics": {
+    "totalReferrals": 19948,
+    "revenueAtRisk": 718236041.8867153,
+    "leakageRate": 0.9547780912311518,
+    "outOfNetworkReferrals": 19624,
+    "totalRevenueAnalyzed": 7522544227.639072,
+    "marketsAnalyzed": 19948,
+    "providerNetworks": 749
+  },
+  "referralPatterns": [
+    {
+      "fromProvider": "Market 10001",
+      "toProvider": "Unknown",
+      "organization": "Cardiology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10001",
+      "toProvider": "Unknown",
+      "organization": "Family Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10001",
+      "toProvider": "Unknown",
+      "organization": "Occupational Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10001",
+      "toProvider": "Unknown",
+      "organization": "Physical Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Dermatology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "General Surgery",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Hospitalist",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Orthopedic Surgery",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Physical Medicine and Rehabilitation",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Physical Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Psychiatry",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Psychologist, Clinical",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10003",
+      "toProvider": "Unknown",
+      "organization": "Radiation Oncology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10007",
+      "toProvider": "Unknown",
+      "organization": "Neurology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10007",
+      "toProvider": "Unknown",
+      "organization": "Physical Medicine and Rehabilitation",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10010",
+      "toProvider": "Unknown",
+      "organization": "Gastroenterology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10010",
+      "toProvider": "Unknown",
+      "organization": "Neurology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10010",
+      "toProvider": "Unknown",
+      "organization": "Physician Assistant",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10010",
+      "toProvider": "Unknown",
+      "organization": "Urology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10011",
+      "toProvider": "Unknown",
+      "organization": "Dermatology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10011",
+      "toProvider": "Unknown",
+      "organization": "Diagnostic Radiology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10011",
+      "toProvider": "Unknown",
+      "organization": "Internal Medicine",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10011",
+      "toProvider": "FINLEY, JOSEPH",
+      "organization": "Otolaryngology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10011",
+      "toProvider": "Unknown",
+      "organization": "Surgical Oncology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10012",
+      "toProvider": "Unknown",
+      "organization": "General Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Clinical Laboratory",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Optometry",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Oral Surgery (Dentist only)",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Otolaryngology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Physical Medicine and Rehabilitation",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Physical Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10013",
+      "toProvider": "Unknown",
+      "organization": "Podiatry",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Allergy/ Immunology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Licensed Clinical Social Worker",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Medical Oncology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Nephrology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Physician Assistant",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Psychiatry",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Psychologist, Clinical",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "SHIH, PETER",
+      "organization": "Pulmonary Disease",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10016",
+      "toProvider": "Unknown",
+      "organization": "Thoracic Surgery",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Ophthalmology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Optometry",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Otolaryngology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Pain Management",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Plastic and Reconstructive Surgery",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10017",
+      "toProvider": "Unknown",
+      "organization": "Urology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10018",
+      "toProvider": "Unknown",
+      "organization": "Occupational Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10018",
+      "toProvider": "Unknown",
+      "organization": "Physical Therapist in Private Practice",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    },
+    {
+      "fromProvider": "Market 10019",
+      "toProvider": "Unknown",
+      "organization": "Anesthesiology",
+      "referralCount": 1,
+      "leakageRate": 1.0
+    }
+  ],
+  "highRiskProviders": [
+    {
+      "providerName": "Ability Network",
+      "referralCount": 4274,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "UPMC",
+      "referralCount": 1576,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "ABILITY Network",
+      "referralCount": 1527,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "The Permanente Medical Group",
+      "referralCount": 1496,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Southern California Permanente Medical Group",
+      "referralCount": 1482,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Atrium Health",
+      "referralCount": 1086,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Washington University",
+      "referralCount": 917,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Cobius Healthcare Solutions",
+      "referralCount": 761,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "OhioHealth Physician Group",
+      "referralCount": 349,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Curators of the University of Missouri",
+      "referralCount": 338,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "University of Alabama Hospital",
+      "referralCount": 324,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Community Physicians of Indiana Inc",
+      "referralCount": 309,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "University of Utah",
+      "referralCount": 286,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Northwest Permanente PC",
+      "referralCount": 285,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Cook County",
+      "referralCount": 274,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "USC CARE MEDICAL GROUP, INC",
+      "referralCount": 257,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Lee Memorial Health System",
+      "referralCount": 224,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "Permanente Medical Group",
+      "referralCount": 202,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "BayCare Medical Group, Inc.",
+      "referralCount": 198,
+      "leakageRate": 0.85
+    },
+    {
+      "providerName": "CITY OF HOPE MEDICAL FOUNDATION",
+      "referralCount": 188,
+      "leakageRate": 0.85
+    }
+  ],
+  "mlInsights": [
+    {
+      "insight": "Ability Network controls 4274 providers - intervention opportunity",
+      "confidence": 0.92,
+      "type": "network_analysis"
+    },
+    {
+      "insight": "UPMC controls 1576 providers - intervention opportunity",
+      "confidence": 0.92,
+      "type": "network_analysis"
+    },
+    {
+      "insight": "ABILITY Network controls 1527 providers - intervention opportunity",
+      "confidence": 0.92,
+      "type": "network_analysis"
+    },
+    {
+      "insight": "The Permanente Medical Group controls 1496 providers - intervention opportunity",
+      "confidence": 0.92,
+      "type": "network_analysis"
+    },
+    {
+      "insight": "Southern California Permanente Medical Group controls 1482 providers - intervention opportunity",
+      "confidence": 0.92,
+      "type": "network_analysis"
+    },
+    {
+      "insight": "Found 19,624 high-concentration markets with 95.5% average market share - massive referral leakage risk",
+      "confidence": 0.95,
+      "type": "market_analysis"
+    },
+    {
+      "insight": "Analyzed $7,522,544,228 in Medicare revenue across 19,948 markets",
+      "confidence": 0.98,
+      "type": "revenue_analysis"
+    }
+  ],
+  "timestamp": "2025-06-20T15:17:52.444472"
+}

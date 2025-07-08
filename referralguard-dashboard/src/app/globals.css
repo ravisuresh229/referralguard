@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force dark theme */
+html, body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  min-height: 100vh !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom background gradient for dashboard */
+.bg-gradient {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(59,130,246,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(239,68,68,0.08) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(6,182,212,0.05) 0%, transparent 50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Shimmer effect for logo */
+.logo .shimmer {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: rotate(45deg);
+  animation: shimmer 3s infinite;
+  z-index: 1;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+/* Pulse effect for status dot */
+.pulse-dot::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: #10B981;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  opacity: 0.5;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+/* Fade-in animation for dashboard sections */
+.fade-in {
+  animation: fadeIn 0.8s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Ensure body uses Inter font */
+body {
+  font-family: 'Inter', sans-serif;
+}

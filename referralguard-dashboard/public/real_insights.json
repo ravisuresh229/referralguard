@@ -1,0 +1,1284 @@
+{
+    "summary": {
+        "totalMarketsAnalyzed": 19948,
+        "highConcentrationMarkets": 17878,
+        "fragmentedMarkets": 9,
+        "totalRevenueAnalyzed": 7522544227.639072,
+        "averageMarketShare": 95.47780912311518,
+        "providerNetworksCount": 749
+    },
+    "marketAnalysis": [
+        {
+            "zipCode": "00610",
+            "specialty": "Physical Medicine and Rehabilitation",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013185297",
+            "totalMarketRevenue": 2450.0,
+            "topProviderRevenue": 2450.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00624",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013073857",
+            "totalMarketRevenue": 4617.5,
+            "topProviderRevenue": 4617.5,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00646",
+            "specialty": "Urology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013140334",
+            "totalMarketRevenue": 33296.699999852004,
+            "topProviderRevenue": 33296.699999852004,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00669",
+            "specialty": "Family Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013204981",
+            "totalMarketRevenue": 2269.379999988,
+            "topProviderRevenue": 2269.379999988,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00674",
+            "specialty": "Diagnostic Radiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013300433",
+            "totalMarketRevenue": 2843.1100000052,
+            "topProviderRevenue": 2843.1100000052,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00674",
+            "specialty": "Family Practice",
+            "topProviderName": "MORALES, OMAR",
+            "topProviderNPI": "1013974989",
+            "totalMarketRevenue": 4599.4,
+            "topProviderRevenue": 4599.4,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00674",
+            "specialty": "Gastroenterology",
+            "topProviderName": "APONTE-REYES, NESTOR",
+            "topProviderNPI": "1003816802",
+            "totalMarketRevenue": 2272.03,
+            "topProviderRevenue": 2272.03,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00674",
+            "specialty": "General Practice",
+            "topProviderName": "ORTIZ RIVERA, GRISSELLE",
+            "topProviderNPI": "1013947423",
+            "totalMarketRevenue": 3087.8799999999997,
+            "topProviderRevenue": 3087.8799999999997,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00680",
+            "specialty": "Cardiology",
+            "topProviderName": "PEREZ HERNANDEZ, JOSE",
+            "topProviderNPI": "1003882143",
+            "totalMarketRevenue": 10608.62,
+            "topProviderRevenue": 10608.62,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00680",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003912288",
+            "totalMarketRevenue": 2054.88,
+            "topProviderRevenue": 2054.88,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00680",
+            "specialty": "Interventional Radiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013459221",
+            "totalMarketRevenue": 80908.00000007,
+            "topProviderRevenue": 80908.00000007,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00682",
+            "specialty": "Emergency Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013112317",
+            "totalMarketRevenue": 116183.0,
+            "topProviderRevenue": 116183.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00683",
+            "specialty": "Nephrology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013134709",
+            "totalMarketRevenue": 7209.44999994,
+            "topProviderRevenue": 7209.44999994,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00693",
+            "specialty": "Mass Immunizer Roster Biller",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013222009",
+            "totalMarketRevenue": 13562.400000284,
+            "topProviderRevenue": 13562.400000284,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00698",
+            "specialty": "Clinical Laboratory",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013185495",
+            "totalMarketRevenue": 1382.3699999992,
+            "topProviderRevenue": 1382.3699999992,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00716",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003911264",
+            "totalMarketRevenue": 1362.3,
+            "topProviderRevenue": 1362.3,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00716",
+            "specialty": "Emergency Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003289836",
+            "totalMarketRevenue": 172888.580001697,
+            "topProviderRevenue": 172888.580001697,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00716",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003298175",
+            "totalMarketRevenue": 252633.0,
+            "topProviderRevenue": 252633.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00716",
+            "specialty": "Pathology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003214107",
+            "totalMarketRevenue": 180081.99999949,
+            "topProviderRevenue": 180081.99999949,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00716",
+            "specialty": "Pulmonary Disease",
+            "topProviderName": "FAHED, GEORGE",
+            "topProviderNPI": "1003850397",
+            "totalMarketRevenue": 50703.990000027,
+            "topProviderRevenue": 50703.990000027,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00717",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013166586",
+            "totalMarketRevenue": 15430.0,
+            "topProviderRevenue": 15430.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00717",
+            "specialty": "Ophthalmology",
+            "topProviderName": "PEREZ RODRIGUEZ, EDUARDO",
+            "topProviderNPI": "1023008612",
+            "totalMarketRevenue": 31532.35,
+            "topProviderRevenue": 31532.35,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00717",
+            "specialty": "Orthopedic Surgery",
+            "topProviderName": "AMY TORRES, EDUARDO",
+            "topProviderNPI": "1003807298",
+            "totalMarketRevenue": 2938.2900000129994,
+            "topProviderRevenue": 2938.2900000129994,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00725",
+            "specialty": "Diagnostic Radiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003008517",
+            "totalMarketRevenue": 16987.0899999949,
+            "topProviderRevenue": 16987.0899999949,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00725",
+            "specialty": "General Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003448697",
+            "totalMarketRevenue": 773.64,
+            "topProviderRevenue": 773.64,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00725",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013091313",
+            "totalMarketRevenue": 2902.82,
+            "topProviderRevenue": 2902.82,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00726",
+            "specialty": "Hematology-Oncology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003251224",
+            "totalMarketRevenue": 21180.00000005,
+            "topProviderRevenue": 21180.00000005,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00729",
+            "specialty": "Physical Therapist in Private Practice",
+            "topProviderName": "SANTANA ESQUILIN, WILLIAM",
+            "topProviderNPI": "1013900711",
+            "totalMarketRevenue": 3800.6100000320002,
+            "topProviderRevenue": 3800.6100000320002,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00736",
+            "specialty": "General Practice",
+            "topProviderName": "FIGUEROA ROBLES, JOSE",
+            "topProviderNPI": "1013992403",
+            "totalMarketRevenue": 4657.8000000150005,
+            "topProviderRevenue": 4657.8000000150005,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00738",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013017508",
+            "totalMarketRevenue": 8013.930000009001,
+            "topProviderRevenue": 8013.930000009001,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00738",
+            "specialty": "Obstetrics & Gynecology",
+            "topProviderName": "CARRERA BAQUERO, MARIA",
+            "topProviderNPI": "1003807389",
+            "totalMarketRevenue": 1120.000000002,
+            "topProviderRevenue": 1120.000000002,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00751",
+            "specialty": "Physical Therapist in Private Practice",
+            "topProviderName": "COLON RAMOS, NELSON",
+            "topProviderNPI": "1003866971",
+            "totalMarketRevenue": 44129.990000053,
+            "topProviderRevenue": 44129.990000053,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00780",
+            "specialty": "Otolaryngology",
+            "topProviderName": "ORTIZ, JAIME",
+            "topProviderNPI": "1003808171",
+            "totalMarketRevenue": 7315.489999972,
+            "topProviderRevenue": 7315.489999972,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00791",
+            "specialty": "Pulmonary Disease",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013168616",
+            "totalMarketRevenue": 9900.0,
+            "topProviderRevenue": 9900.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00802",
+            "specialty": "Physical Therapist in Private Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013295039",
+            "totalMarketRevenue": 173520.0,
+            "topProviderRevenue": 173520.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00820",
+            "specialty": "Physical Therapist in Private Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013570308",
+            "totalMarketRevenue": 549017.0,
+            "topProviderRevenue": 549017.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00820",
+            "specialty": "Registered Dietitian or Nutrition Professional",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003363607",
+            "totalMarketRevenue": 2250.0,
+            "topProviderRevenue": 2250.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00907",
+            "specialty": "Anesthesiology",
+            "topProviderName": "MATTEI PACHECO, ANTONIO",
+            "topProviderNPI": "1013989722",
+            "totalMarketRevenue": 17592.96000016,
+            "topProviderRevenue": 17592.96000016,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00907",
+            "specialty": "Nephrology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003016775",
+            "totalMarketRevenue": 7809.3200000080005,
+            "topProviderRevenue": 7809.3200000080005,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00909",
+            "specialty": "Obstetrics & Gynecology",
+            "topProviderName": "NEGRON, JORGE",
+            "topProviderNPI": "1003855123",
+            "totalMarketRevenue": 3515.32,
+            "topProviderRevenue": 3515.32,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00917",
+            "specialty": "Cardiology",
+            "topProviderName": "RIVERA, GILBERTO",
+            "topProviderNPI": "1003814047",
+            "totalMarketRevenue": 79205.39999991699,
+            "topProviderRevenue": 79205.39999991699,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00917",
+            "specialty": "Gastroenterology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003933417",
+            "totalMarketRevenue": 52276.04000013,
+            "topProviderRevenue": 52276.04000013,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00917",
+            "specialty": "Ophthalmology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003981804",
+            "totalMarketRevenue": 111951.079999812,
+            "topProviderRevenue": 111951.079999812,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00917",
+            "specialty": "Otolaryngology",
+            "topProviderName": "VILA RAMIREZ, RAUL",
+            "topProviderNPI": "1013988815",
+            "totalMarketRevenue": 443980.0,
+            "topProviderRevenue": 443980.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00917",
+            "specialty": "Pulmonary Disease",
+            "topProviderName": "MARTINEZ QUINTANA, ROBERTO",
+            "topProviderNPI": "1023007523",
+            "totalMarketRevenue": 39031.200000224,
+            "topProviderRevenue": 39031.200000224,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Anesthesiology",
+            "topProviderName": "NEGRON VALCARCEL, AUREA",
+            "topProviderNPI": "1003806670",
+            "totalMarketRevenue": 24028.93999992,
+            "topProviderRevenue": 24028.93999992,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Chiropractic",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013002377",
+            "totalMarketRevenue": 43087.080000144,
+            "topProviderRevenue": 43087.080000144,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Diagnostic Radiology",
+            "topProviderName": "MARIN, JOANNE",
+            "topProviderNPI": "1003844986",
+            "totalMarketRevenue": 50204.25,
+            "topProviderRevenue": 50204.25,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Family Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013022409",
+            "totalMarketRevenue": 13752.42000006,
+            "topProviderRevenue": 13752.42000006,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003947540",
+            "totalMarketRevenue": 9869.000000013,
+            "topProviderRevenue": 9869.000000013,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Pathology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013319995",
+            "totalMarketRevenue": 78620.25000028899,
+            "topProviderRevenue": 78620.25000028899,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00918",
+            "specialty": "Psychologist, Clinical",
+            "topProviderName": "DALMAU, TERESA",
+            "topProviderNPI": "1003809658",
+            "totalMarketRevenue": 24832.920000000002,
+            "topProviderRevenue": 24832.920000000002,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00920",
+            "specialty": "Audiologist",
+            "topProviderName": "MARRERO SANCHEZ, VYLSA",
+            "topProviderNPI": "1003884032",
+            "totalMarketRevenue": 1138.8900000039998,
+            "topProviderRevenue": 1138.8900000039998,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00921",
+            "specialty": "Endocrinology",
+            "topProviderName": "GOMEZ, MARTHA",
+            "topProviderNPI": "1003822651",
+            "totalMarketRevenue": 11267.89000004,
+            "topProviderRevenue": 11267.89000004,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00923",
+            "specialty": "Ophthalmology",
+            "topProviderName": "OLIVER, ARMANDO",
+            "topProviderNPI": "1013904440",
+            "totalMarketRevenue": 19410.34000036,
+            "topProviderRevenue": 19410.34000036,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00926",
+            "specialty": "Neurology",
+            "topProviderName": "GARCIA-RONDON, MARI",
+            "topProviderNPI": "1013984004",
+            "totalMarketRevenue": 20688.44999942,
+            "topProviderRevenue": 20688.44999942,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00926",
+            "specialty": "Orthopedic Surgery",
+            "topProviderName": "OTERO LOPEZ, FRANCISCO",
+            "topProviderNPI": "1013968973",
+            "totalMarketRevenue": 1847.0,
+            "topProviderRevenue": 1847.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00926",
+            "specialty": "Physical Therapist in Private Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003161241",
+            "totalMarketRevenue": 17614.74,
+            "topProviderRevenue": 17614.74,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00927",
+            "specialty": "Diagnostic Radiology",
+            "topProviderName": "MARQUES DIAZ, BERNARDO",
+            "topProviderNPI": "1013910231",
+            "totalMarketRevenue": 86891.9099999146,
+            "topProviderRevenue": 86891.9099999146,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00935",
+            "specialty": "Endocrinology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013258482",
+            "totalMarketRevenue": 13800.0,
+            "topProviderRevenue": 13800.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00949",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013011436",
+            "totalMarketRevenue": 5797.029999987,
+            "topProviderRevenue": 5797.029999987,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00949",
+            "specialty": "Obstetrics & Gynecology",
+            "topProviderName": "DE JESUS PAGAN, ELENA",
+            "topProviderNPI": "1003873969",
+            "totalMarketRevenue": 2400.0,
+            "topProviderRevenue": 2400.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00956",
+            "specialty": "Family Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003906470",
+            "totalMarketRevenue": 13705.050000000001,
+            "topProviderRevenue": 13705.050000000001,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00959",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013085554",
+            "totalMarketRevenue": 20921.219999949797,
+            "topProviderRevenue": 20921.219999949797,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Clinical Laboratory",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003083429",
+            "totalMarketRevenue": 5570.6599999996,
+            "topProviderRevenue": 5570.6599999996,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Dermatology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003124728",
+            "totalMarketRevenue": 99537.73,
+            "topProviderRevenue": 99537.73,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "General Practice",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013145812",
+            "totalMarketRevenue": 2742.3000000119996,
+            "topProviderRevenue": 2742.3000000119996,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003987793",
+            "totalMarketRevenue": 10907.900000048,
+            "topProviderRevenue": 10907.900000048,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Nephrology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003934589",
+            "totalMarketRevenue": 17874.089999696997,
+            "topProviderRevenue": 17874.089999696997,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Orthopedic Surgery",
+            "topProviderName": "SOLER SALAS, ANTONIO",
+            "topProviderNPI": "1023001765",
+            "totalMarketRevenue": 14149.09999997,
+            "topProviderRevenue": 14149.09999997,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Physical Medicine and Rehabilitation",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003255431",
+            "totalMarketRevenue": 6389.7699999900005,
+            "topProviderRevenue": 6389.7699999900005,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00961",
+            "specialty": "Urology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013222959",
+            "totalMarketRevenue": 7154.45999997,
+            "topProviderRevenue": 7154.45999997,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00966",
+            "specialty": "Physical Medicine and Rehabilitation",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003023813",
+            "totalMarketRevenue": 4359.36,
+            "topProviderRevenue": 4359.36,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00966",
+            "specialty": "Urology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013113802",
+            "totalMarketRevenue": 3432.0700000129996,
+            "topProviderRevenue": 3432.0700000129996,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00968",
+            "specialty": "Pulmonary Disease",
+            "topProviderName": "MARTIN REYES, ELBA",
+            "topProviderNPI": "1003808742",
+            "totalMarketRevenue": 37697.3800000194,
+            "topProviderRevenue": 37697.3800000194,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00969",
+            "specialty": "Cardiology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013110485",
+            "totalMarketRevenue": 3694.0,
+            "topProviderRevenue": 3694.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00969",
+            "specialty": "Clinical Laboratory",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003907346",
+            "totalMarketRevenue": 20759.3000000014,
+            "topProviderRevenue": 20759.3000000014,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00982",
+            "specialty": "Dermatology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003261280",
+            "totalMarketRevenue": 5245.879999988,
+            "topProviderRevenue": 5245.879999988,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00983",
+            "specialty": "Dermatology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003079757",
+            "totalMarketRevenue": 27300.050000062,
+            "topProviderRevenue": 27300.050000062,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "00985",
+            "specialty": "Urology",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003221458",
+            "totalMarketRevenue": 7275.0,
+            "topProviderRevenue": 7275.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01005",
+            "specialty": "Family Practice",
+            "topProviderName": "GRIMALDI, PAMELA",
+            "topProviderNPI": "1023010402",
+            "totalMarketRevenue": 249851.0,
+            "topProviderRevenue": 249851.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01020",
+            "specialty": "General Surgery",
+            "topProviderName": "FRANK, JAMES",
+            "topProviderNPI": "1003867318",
+            "totalMarketRevenue": 17010.0,
+            "topProviderRevenue": 17010.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01027",
+            "specialty": "Licensed Clinical Social Worker",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013088988",
+            "totalMarketRevenue": 23250.0,
+            "topProviderRevenue": 23250.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01028",
+            "specialty": "Podiatry",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013125988",
+            "totalMarketRevenue": 268634.99999822,
+            "topProviderRevenue": 268634.99999822,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01036",
+            "specialty": "Podiatry",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003981291",
+            "totalMarketRevenue": 64050.00000037601,
+            "topProviderRevenue": 64050.00000037601,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01040",
+            "specialty": "Licensed Clinical Social Worker",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013438910",
+            "totalMarketRevenue": 4799.999999899999,
+            "topProviderRevenue": 4799.999999899999,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01056",
+            "specialty": "Physician Assistant",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003515644",
+            "totalMarketRevenue": 40065.45999982,
+            "topProviderRevenue": 40065.45999982,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01060",
+            "specialty": "Anesthesiology",
+            "topProviderName": "JOHNSON, BRIAN",
+            "topProviderNPI": "1013984947",
+            "totalMarketRevenue": 239256.999999,
+            "topProviderRevenue": 239256.999999,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01060",
+            "specialty": "Licensed Clinical Social Worker",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013070267",
+            "totalMarketRevenue": 54750.0,
+            "topProviderRevenue": 54750.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01060",
+            "specialty": "Physician Assistant",
+            "topProviderName": "BRINGARDNER, KIRSTEN",
+            "topProviderNPI": "1013962059",
+            "totalMarketRevenue": 93797.0,
+            "topProviderRevenue": 93797.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01061",
+            "specialty": "Emergency Medicine",
+            "topProviderName": "DARKO, ENOCH",
+            "topProviderNPI": "1003874769",
+            "totalMarketRevenue": 737073.999998216,
+            "topProviderRevenue": 737073.999998216,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01062",
+            "specialty": "Internal Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013370279",
+            "totalMarketRevenue": 87074.99999969,
+            "topProviderRevenue": 87074.99999969,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01062",
+            "specialty": "Nurse Practitioner",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013047620",
+            "totalMarketRevenue": 96957.0,
+            "topProviderRevenue": 96957.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01085",
+            "specialty": "Emergency Medicine",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1003346776",
+            "totalMarketRevenue": 111685.99999956999,
+            "topProviderRevenue": 111685.99999956999,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01085",
+            "specialty": "Internal Medicine",
+            "topProviderName": "nan, nan",
+            "topProviderNPI": "1023009602",
+            "totalMarketRevenue": 134959.999999168,
+            "topProviderRevenue": 134959.999999168,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01085",
+            "specialty": "Psychologist, Clinical",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013067529",
+            "totalMarketRevenue": 29750.0,
+            "topProviderRevenue": 29750.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01089",
+            "specialty": "Chiropractic",
+            "topProviderName": "Unknown Provider",
+            "topProviderNPI": "1013002393",
+            "totalMarketRevenue": 55536.0,
+            "topProviderRevenue": 55536.0,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01103",
+            "specialty": "Anesthesiology",
+            "topProviderName": "MANIKANTAN, POORNACHANDRAN",
+            "topProviderNPI": "1003806308",
+            "totalMarketRevenue": 395238.99999975,
+            "topProviderRevenue": 395238.99999975,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01104",
+            "specialty": "Diagnostic Radiology",
+            "topProviderName": "FRIEDMAN, JEFFREY",
+            "topProviderNPI": "1013911957",
+            "totalMarketRevenue": 343678.999999921,
+            "topProviderRevenue": 343678.999999921,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        },
+        {
+            "zipCode": "01104",
+            "specialty": "Endocrinology",
+            "topProviderName": "KARACSONYI, EVA",
+            "topProviderNPI": "1013983691",
+            "totalMarketRevenue": 116820.00000032,
+            "topProviderRevenue": 116820.00000032,
+            "marketSharePercentage": 100.0,
+            "providerCount": 1
+        }
+    ],
+    "leakageOpportunities": [
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00610",
+            "specialty": "Physical Medicine and Rehabilitation",
+            "description": "Unknown Provider has a 100.0% market share in Physical Medicine and Rehabilitation in zip 00610.",
+            "revenue": 2450.0
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00624",
+            "specialty": "Internal Medicine",
+            "description": "Unknown Provider has a 100.0% market share in Internal Medicine in zip 00624.",
+            "revenue": 4617.5
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00646",
+            "specialty": "Urology",
+            "description": "Unknown Provider has a 100.0% market share in Urology in zip 00646.",
+            "revenue": 33296.699999852004
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00669",
+            "specialty": "Family Practice",
+            "description": "Unknown Provider has a 100.0% market share in Family Practice in zip 00669.",
+            "revenue": 2269.379999988
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00674",
+            "specialty": "Diagnostic Radiology",
+            "description": "Unknown Provider has a 100.0% market share in Diagnostic Radiology in zip 00674.",
+            "revenue": 2843.1100000052
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00674",
+            "specialty": "Family Practice",
+            "description": "MORALES, OMAR has a 100.0% market share in Family Practice in zip 00674.",
+            "revenue": 4599.4
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00674",
+            "specialty": "Gastroenterology",
+            "description": "APONTE-REYES, NESTOR has a 100.0% market share in Gastroenterology in zip 00674.",
+            "revenue": 2272.03
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00674",
+            "specialty": "General Practice",
+            "description": "ORTIZ RIVERA, GRISSELLE has a 100.0% market share in General Practice in zip 00674.",
+            "revenue": 3087.8799999999997
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00680",
+            "specialty": "Cardiology",
+            "description": "PEREZ HERNANDEZ, JOSE has a 100.0% market share in Cardiology in zip 00680.",
+            "revenue": 10608.62
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00680",
+            "specialty": "Internal Medicine",
+            "description": "Unknown Provider has a 100.0% market share in Internal Medicine in zip 00680.",
+            "revenue": 2054.88
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00680",
+            "specialty": "Interventional Radiology",
+            "description": "Unknown Provider has a 100.0% market share in Interventional Radiology in zip 00680.",
+            "revenue": 80908.00000007
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00682",
+            "specialty": "Emergency Medicine",
+            "description": "Unknown Provider has a 100.0% market share in Emergency Medicine in zip 00682.",
+            "revenue": 116183.0
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00683",
+            "specialty": "Nephrology",
+            "description": "Unknown Provider has a 100.0% market share in Nephrology in zip 00683.",
+            "revenue": 7209.44999994
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00693",
+            "specialty": "Mass Immunizer Roster Biller",
+            "description": "Unknown Provider has a 100.0% market share in Mass Immunizer Roster Biller in zip 00693.",
+            "revenue": 13562.400000284
+        },
+        {
+            "type": "High Concentration Risk",
+            "zipCode": "00698",
+            "specialty": "Clinical Laboratory",
+            "description": "Unknown Provider has a 100.0% market share in Clinical Laboratory in zip 00698.",
+            "revenue": 1382.3699999992
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "02115",
+            "specialty": "Internal Medicine",
+            "description": "Fragmented market: Internal Medicine in zip 02115 has 7 providers, with the top provider holding only 22.6% share.",
+            "revenue": 357023.19999953
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "40202",
+            "specialty": "Nurse Practitioner",
+            "description": "Fragmented market: Nurse Practitioner in zip 40202 has 10 providers, with the top provider holding only 22.5% share.",
+            "revenue": 673367.489999867
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "08003",
+            "specialty": "Physical Therapist in Private Practice",
+            "description": "Fragmented market: Physical Therapist in Private Practice in zip 08003 has 7 providers, with the top provider holding only 21.9% share.",
+            "revenue": 1265739.689999574
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "10461",
+            "specialty": "Emergency Medicine",
+            "description": "Fragmented market: Emergency Medicine in zip 10461 has 7 providers, with the top provider holding only 21.8% share.",
+            "revenue": 674245.889999376
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "43210",
+            "specialty": "Certified Registered Nurse Anesthetist (CRNA)",
+            "description": "Fragmented market: Certified Registered Nurse Anesthetist (CRNA) in zip 43210 has 6 providers, with the top provider holding only 21.7% share.",
+            "revenue": 158330.50000069
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "39440",
+            "specialty": "Nurse Practitioner",
+            "description": "Fragmented market: Nurse Practitioner in zip 39440 has 6 providers, with the top provider holding only 21.0% share.",
+            "revenue": 946280.599999185
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "92868",
+            "specialty": "Diagnostic Radiology",
+            "description": "Fragmented market: Diagnostic Radiology in zip 92868 has 8 providers, with the top provider holding only 19.1% share.",
+            "revenue": 4294176.580003256
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "77030",
+            "specialty": "Nurse Practitioner",
+            "description": "Fragmented market: Nurse Practitioner in zip 77030 has 12 providers, with the top provider holding only 18.6% share.",
+            "revenue": 689191.8399989699
+        },
+        {
+            "type": "Market Share Opportunity",
+            "zipCode": "44195",
+            "specialty": "Nurse Practitioner",
+            "description": "Fragmented market: Nurse Practitioner in zip 44195 has 22 providers, with the top provider holding only 12.3% share.",
+            "revenue": 2402744.499999691
+        }
+    ],
+    "providerNetworks": [
+        {
+            "Affiliation Legal Business Name": "Ability Network",
+            "NPI_count": 4274,
+            "Endpoint_count": 16
+        },
+        {
+            "Affiliation Legal Business Name": "UPMC",
+            "NPI_count": 1576,
+            "Endpoint_count": 960
+        },
+        {
+            "Affiliation Legal Business Name": "ABILITY Network",
+            "NPI_count": 1527,
+            "Endpoint_count": 1
+        },
+        {
+            "Affiliation Legal Business Name": "The Permanente Medical Group",
+            "NPI_count": 1496,
+            "Endpoint_count": 1
+        },
+        {
+            "Affiliation Legal Business Name": "Southern California Permanente Medical Group",
+            "NPI_count": 1482,
+            "Endpoint_count": 2
+        },
+        {
+            "Affiliation Legal Business Name": "Atrium Health",
+            "NPI_count": 1086,
+            "Endpoint_count": 868
+        },
+        {
+            "Affiliation Legal Business Name": "Washington University",
+            "NPI_count": 917,
+            "Endpoint_count": 3
+        },
+        {
+            "Affiliation Legal Business Name": "Cobius Healthcare Solutions",
+            "NPI_count": 761,
+            "Endpoint_count": 12
+        },
+        {
+            "Affiliation Legal Business Name": "OhioHealth Physician Group",
+            "NPI_count": 349,
+            "Endpoint_count": 349
+        },
+        {
+            "Affiliation Legal Business Name": "Curators of the University of Missouri",
+            "NPI_count": 338,
+            "Endpoint_count": 1
+        },
+        {
+            "Affiliation Legal Business Name": "University of Alabama Hospital",
+            "NPI_count": 324,
+            "Endpoint_count": 324
+        },
+        {
+            "Affiliation Legal Business Name": "Community Physicians of Indiana Inc",
+            "NPI_count": 309,
+            "Endpoint_count": 310
+        },
+        {
+            "Affiliation Legal Business Name": "University of Utah",
+            "NPI_count": 286,
+            "Endpoint_count": 286
+        },
+        {
+            "Affiliation Legal Business Name": "Northwest Permanente PC",
+            "NPI_count": 285,
+            "Endpoint_count": 1
+        },
+        {
+            "Affiliation Legal Business Name": "Cook County",
+            "NPI_count": 274,
+            "Endpoint_count": 274
+        },
+        {
+            "Affiliation Legal Business Name": "USC CARE MEDICAL GROUP, INC",
+            "NPI_count": 257,
+            "Endpoint_count": 257
+        },
+        {
+            "Affiliation Legal Business Name": "Lee Memorial Health System",
+            "NPI_count": 224,
+            "Endpoint_count": 224
+        },
+        {
+            "Affiliation Legal Business Name": "Permanente Medical Group",
+            "NPI_count": 202,
+            "Endpoint_count": 1
+        },
+        {
+            "Affiliation Legal Business Name": "BayCare Medical Group, Inc.",
+            "NPI_count": 198,
+            "Endpoint_count": 198
+        },
+        {
+            "Affiliation Legal Business Name": "CITY OF HOPE MEDICAL FOUNDATION",
+            "NPI_count": 188,
+            "Endpoint_count": 1
+        }
+    ]
+}
