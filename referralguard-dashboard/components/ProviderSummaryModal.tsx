@@ -179,7 +179,7 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      {aiRecommendations.map((rec, index) => (
+                      {aiRecommendations.map((rec: any, index: number) => (
                         <div key={index} className="p-4 border rounded-lg">
                           <div className="flex items-start justify-between mb-2">
                             <h4 className="font-semibold text-gray-900">{rec.title}</h4>
