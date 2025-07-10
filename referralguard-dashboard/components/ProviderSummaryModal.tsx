@@ -207,29 +207,38 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-700">High Market Concentration</span>
-                        <Badge variant="destructive">Critical</Badge>
-                      </div>
-                      <Progress value={85} className="h-2" />
-                      
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-700">Above Market Rates</span>
-                        <Badge variant="secondary">High</Badge>
-                      </div>
-                      <Progress value={72} className="h-2" />
-                      
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-700">Declining Market Share</span>
-                        <Badge variant="secondary">Medium</Badge>
-                      </div>
-                      <Progress value={58} className="h-2" />
-                      
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-700">Limited Contract Terms</span>
-                        <Badge variant="default">Low</Badge>
-                      </div>
-                      <Progress value={35} className="h-2" />
+                      {riskFactors.length > 0 ? (
+                        riskFactors.map((risk: any, index: number) => (
+                          <div key={index}>
+                            <div className="flex items-center justify-between">
+                              <span className="text-sm text-gray-700">{risk.label}</span>
+                              <Badge variant={
+                                risk.level === 'Critical' ? 'destructive' : 
+                                risk.level === 'High' ? 'secondary' : 'default'
+                              }>
+                                {risk.level}
+                              </Badge>
+                            </div>
+                            <Progress 
+                              value={
+                                risk.level === 'Critical' ? 85 : 
+                                risk.level === 'High' ? 72 : 
+                                risk.level === 'Medium' ? 58 : 35
+                              } 
+                              className="h-2 mt-1" 
+                            />
+                          </div>
+                        ))
+                      ) : (
+                        // Fallback to default risk factors if none provided
+                        <>
+                          <div className="flex items-center justify-between">
+                            <span className="text-sm text-gray-700">General Market Risk</span>
+                            <Badge variant="default">Low</Badge>
+                          </div>
+                          <Progress value={35} className="h-2" />
+                        </>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
@@ -241,32 +250,39 @@ const ProviderSummaryModal: React.FC<ProviderSummaryModalProps> = ({
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg border border-green-200">
-                        <div className="w-2 h-2 bg-green-500 rounded-full" />
-                        <div className="flex-1">
-                          <div className="text-sm font-medium text-gray-900">Contract Renewal</div>
-                          <div className="text-xs text-gray-600">Completed 2 months ago</div>
+                      {interventionHistory.length > 0 ? (
+                        interventionHistory.map((intervention: any, index: number) => {
+                          const bgColor = intervention.color === 'green' ? 'bg-green-50 border-green-200' :
+                                         intervention.color === 'yellow' ? 'bg-yellow-50 border-yellow-200' :
+                                         'bg-blue-50 border-blue-200';
+                          const dotColor = intervention.color === 'green' ? 'bg-green-500' :
+                                          intervention.color === 'yellow' ? 'bg-yellow-500' :
+                                          'bg-blue-500';
+                          const statusLabel = intervention.status === 'completed' ? 'Success' :
+                                            intervention.status === 'in_progress' ? 'In Progress' :
+                                            intervention.status === 'pending' ? 'Pending' :
+                                            'Planned';
+                          const statusVariant = intervention.status === 'completed' ? 'default' :
+                                               intervention.status === 'in_progress' ? 'secondary' :
+                                               'outline';
+                          
+                          return (
+                            <div key={index} className={`flex items-center gap-3 p-3 rounded-lg border ${bgColor}`}>
+                              <div className={`w-2 h-2 rounded-full ${dotColor}`} />
+                              <div className="flex-1">
+                                <div className="text-sm font-medium text-gray-900">{intervention.label}</div>
+                                <div className="text-xs text-gray-600">{intervention.date}</div>
+                              </div>
+                              <Badge variant={statusVariant}>{statusLabel}</Badge>
+                            </div>
+                          );
+                        })
+                      ) : (
+                        // Fallback if no intervention history
+                        <div className="text-center py-4 text-gray-500">
+                          <div className="text-sm">No intervention history available</div>
                         </div>
-                        <Badge variant="default">Success</Badge>
-                      </div>
-                      
-                      <div className="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg border border-yellow-200">
-                        <div className="w-2 h-2 bg-yellow-500 rounded-full" />
-                        <div className="flex-1">
-                          <div className="text-sm font-medium text-gray-900">Rate Negotiation</div>
-                          <div className="text-xs text-gray-600">In progress - 30 days</div>
-                        </div>
-                        <Badge variant="secondary">Pending</Badge>
-                      </div>
-                      
-                      <div className="flex items-center gap-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                        <div className="flex-1">
-                          <div className="text-sm font-medium text-gray-900">Relationship Meeting</div>
-                          <div className="text-xs text-gray-600">Scheduled for next week</div>
-                        </div>
-                        <Badge variant="default">Planned</Badge>
-                      </div>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
