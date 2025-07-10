@@ -51,4 +51,4 @@ uvicorn app.main:app --reload
 
 ## License
 
-Proprietary - All rights reserved 
+Proprietary - All rights reserved # Force Vercel redeploy - Thu Jul 10 13:53:03 CDT 2025
