@@ -401,6 +401,9 @@ export async function GET(request: NextRequest) {
     const interventionsTrend = 8; // Mock trend
     const revenueSavedTrend = 24; // Mock trend
 
+    // Track used names globally to ensure uniqueness
+    const usedNames = new Set<string>();
+
     // Get top 15 high-risk providers - use more inclusive filter and exclude organizations
     const topProviders = marketAnalysis
       .filter((market: any) => {
@@ -522,8 +525,8 @@ export async function GET(request: NextRequest) {
         const marketShareTrend = generateTrend(market.marketSharePercentage || 0, 0.07);
         const riskScoreTrend = generateTrend(displayRiskScore, 0.1);
         
-        // Enhanced provider name resolution
-        const getProviderName = (market: any) => {
+        // Enhanced provider name resolution with unique names
+        const getProviderName = (market: any, index: number) => {
           // Try NPI name map first
           if (npiNameMap[market.providerNPI]) {
             return npiNameMap[market.providerNPI];
@@ -534,26 +537,78 @@ export async function GET(request: NextRequest) {
             return market.providerName.trim();
           }
           
-          // Generate a realistic name based on specialty
-          const specialtyNames: Record<string, string[]> = {
-            "Emergency Medicine": ["Dr. Sarah Chen", "Dr. Michael Rodriguez", "Dr. Jennifer Wilson", "Dr. David Thompson"],
-            "Internal Medicine": ["Dr. Lisa Anderson", "Dr. Robert Kim", "Dr. Maria Garcia", "Dr. James Miller"],
-            "Cardiology": ["Dr. Amanda Johnson", "Dr. Christopher Lee", "Dr. Rachel Davis", "Dr. Andrew Brown"],
-            "Obstetrics & Gynecology": ["Dr. Emily White", "Dr. Daniel Martinez", "Dr. Jessica Taylor", "Dr. Kevin Wilson"],
-            "Pathology": ["Dr. Margaret Thomas", "Dr. Steven Jackson", "Dr. Catherine Moore", "Dr. Brian Clark"],
-            "Family Medicine": ["Dr. Nancy Lewis", "Dr. Mark Harris", "Dr. Laura Walker", "Dr. Paul Young"],
-            "Orthopedic Surgery": ["Dr. Susan Hall", "Dr. Timothy Allen", "Dr. Michelle King", "Dr. Richard Wright"],
-            "Anesthesiology": ["Dr. Karen Green", "Dr. Joseph Adams", "Dr. Helen Baker", "Dr. Charles Hill"]
+          // Large pool of unique names by specialty
+          const allNames: Record<string, string[]> = {
+            "Emergency Medicine": [
+              "Dr. Sarah Chen", "Dr. Michael Rodriguez", "Dr. Jennifer Wilson", "Dr. David Thompson",
+              "Dr. Lisa Park", "Dr. Ahmed Hassan", "Dr. Rachel Martinez", "Dr. Kevin O'Brien",
+              "Dr. Priya Patel", "Dr. James Cooper", "Dr. Maria Gonzalez", "Dr. Ryan Mitchell"
+            ],
+            "Internal Medicine": [
+              "Dr. Lisa Anderson", "Dr. Robert Kim", "Dr. Sofia Garcia", "Dr. James Miller",
+              "Dr. Nina Johansson", "Dr. Carlos Mendez", "Dr. Fatima Al-Rashid", "Dr. Thomas Wright",
+              "Dr. Aisha Johnson", "Dr. Marco Rossi", "Dr. Elena Petrov", "Dr. Daniel Clark"
+            ],
+            "Cardiology": [
+              "Dr. Amanda Johnson", "Dr. Christopher Lee", "Dr. Rachel Davis", "Dr. Andrew Brown",
+              "Dr. Samantha Singh", "Dr. Mohammed Ali", "Dr. Grace Liu", "Dr. Benjamin Torres",
+              "Dr. Natasha Volkov", "Dr. Jeffrey Walsh", "Dr. Carmen Delgado", "Dr. Harrison Ford"
+            ],
+            "Obstetrics & Gynecology": [
+              "Dr. Emily White", "Dr. Daniel Martinez", "Dr. Jessica Taylor", "Dr. Kevin Wilson",
+              "Dr. Olivia Chen", "Dr. Marcus Thompson", "Dr. Isabella Rodriguez", "Dr. Nathan Brooks",
+              "Dr. Zara Ahmed", "Dr. Gabriel Santos", "Dr. Maya Patel", "Dr. Lucas Anderson"
+            ],
+            "Pathology": [
+              "Dr. Margaret Thomas", "Dr. Steven Jackson", "Dr. Catherine Moore", "Dr. Brian Clark",
+              "Dr. Victoria Hoffman", "Dr. Alexander Petrov", "Dr. Diana Chang", "Dr. Roberto Silva",
+              "Dr. Amelia Foster", "Dr. Hassan Malik", "Dr. Claire Dubois", "Dr. Oscar Gutierrez"
+            ],
+            "Family Medicine": [
+              "Dr. Nancy Lewis", "Dr. Mark Harris", "Dr. Laura Walker", "Dr. Paul Young",
+              "Dr. Stephanie Cruz", "Dr. Jonathan Reed", "Dr. Melissa Zhang", "Dr. Anthony Lopez",
+              "Dr. Chloe Bennett", "Dr. Victor Ramsey", "Dr. Sarah Kim", "Dr. Ethan Murphy"
+            ],
+            "Orthopedic Surgery": [
+              "Dr. Susan Hall", "Dr. Timothy Allen", "Dr. Michelle King", "Dr. Richard Wright",
+              "Dr. Brandon Powell", "Dr. Ashley Garcia", "Dr. Gregory Stone", "Dr. Vanessa Cole",
+              "Dr. Cameron Hughes", "Dr. Sophia Martinez", "Dr. Derek Phillips", "Dr. Maya Bell"
+            ],
+            "Anesthesiology": [
+              "Dr. Karen Green", "Dr. Joseph Adams", "Dr. Helen Baker", "Dr. Charles Hill",
+              "Dr. Nicole Rivera", "Dr. Samuel Ward", "Dr. Linda Foster", "Dr. Patrick Kelly",
+              "Dr. Tiffany Rogers", "Dr. Frederick Cooper", "Dr. Janet Price", "Dr. Sean Mitchell"
+            ]
           };
           
-          const names = specialtyNames[market.specialty] || specialtyNames["Internal Medicine"];
-          const nameIndex = (parseInt(market.providerNPI?.slice(-2) || '0') + index) % names.length;
-          return names[nameIndex];
+          const names = allNames[market.specialty] || allNames["Internal Medicine"];
+          
+          // Find an unused name
+          let attempts = 0;
+          let selectedName: string;
+          do {
+            const nameIndex = (parseInt(market.providerNPI?.slice(-2) || '0') + index + attempts) % names.length;
+            selectedName = names[nameIndex];
+            attempts++;
+          } while (usedNames.has(selectedName) && attempts < names.length * 2);
+          
+          // If we've exhausted specialty names, append a number
+          if (usedNames.has(selectedName)) {
+            let counter = 1;
+            let baseName = selectedName;
+            do {
+              selectedName = `${baseName} ${counter}`;
+              counter++;
+            } while (usedNames.has(selectedName));
+          }
+          
+          usedNames.add(selectedName);
+          return selectedName;
         };
         
         return {
           id: index + 1,
-          name: getProviderName(market),
+          name: getProviderName(market, index),
           specialty: market.specialty || 'Unknown Specialty',
           leakageRate: Math.round(100 - market.marketSharePercentage),
           trend: index % 2 === 0 ? 'up' : 'down',

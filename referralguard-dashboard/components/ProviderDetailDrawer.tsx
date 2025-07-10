@@ -49,12 +49,19 @@ const ProviderDetailDrawer: React.FC<ProviderDetailDrawerProps> = ({
     has_provider_name: 0.15
   };
 
-  // Calculate feature contributions
-  const featureContributions = Object.entries(features).map(([feature, value]) => ({
+  // Calculate feature contributions and normalize to 0-1 range
+  const rawContributions = Object.entries(features).map(([feature, value]) => ({
     feature,
     value: value as number,
     weight: featureWeights[feature as keyof typeof featureWeights] || 0.1,
-    contribution: (value as number) * (featureWeights[feature as keyof typeof featureWeights] || 0.1)
+    rawContribution: (value as number) * (featureWeights[feature as keyof typeof featureWeights] || 0.1)
+  }));
+
+  // Normalize contributions to 0-1 range based on the maximum absolute contribution
+  const maxAbsContribution = Math.max(...rawContributions.map(f => Math.abs(f.rawContribution)));
+  const featureContributions = rawContributions.map(f => ({
+    ...f,
+    contribution: maxAbsContribution > 0 ? f.rawContribution / maxAbsContribution : 0
   })).sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution));
 
   // Check if features are too similar (indicating placeholder data)
